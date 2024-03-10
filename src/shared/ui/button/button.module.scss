@@ -1,0 +1,42 @@
+.button {
+    --border-width: 1px;
+    --border-radius: 4px;
+    --gradient: linear-gradient(0.25turn, #54F4DF, #2AB6FD);
+    --background-color: #202F34;
+
+    position: relative;
+    background: var(--gradient);
+    border: none;
+    border-radius: var(--border-radius);
+    color: #BAC1CC;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    transition: transform 0.1s linear, border 0.3s linear;
+
+    &:not(:disabled) {
+        cursor: pointer;
+    }
+
+    &:disabled {
+        pointer-events: none;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+
+    &:hover {
+        --background-color: #172226;
+    }
+}
+
+.content {
+    margin: var(--border-width);
+    padding: 9px;
+    background-color: var(--background-color);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    transition: background-color 0.3s linear;
+}
