@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    width: 240px;
+}
+
+.button {
+    width: 100%;
+}
+
+.list {
+    position: absolute;
+    top: 100%;
+    margin-top: 5px;
+    width: 100%;
+    background-color: #2B2C36;
+    border: 1px solid #263C43;
+    border-radius: 4px;
+}
+
+.divider:last-child {
+    display: none;
+}

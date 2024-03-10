@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #22232b;
+    }
+}
+
+.title {
+    color: #BAC1CC;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.arrow {
+    color: #fff;
+}
