@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "https://d2norla3tyc4cn.cloudfront.net",
+        hostname: "d2norla3tyc4cn.cloudfront.net",
       },
     ],
   },
